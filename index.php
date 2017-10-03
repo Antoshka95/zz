@@ -5,5 +5,5 @@ for ($i=0; $i<count($prices); $i++) {
 	$summ+=$prices[$i];
 }
 $avg=$summ/count($prices);
-echo $avg;
+echo "Среднее арифметическое $avg";
 ?>
